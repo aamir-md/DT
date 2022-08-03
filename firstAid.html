@@ -1,0 +1,262 @@
+<html>
+  <head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="https://th.bing.com/th/id/R.d983fd06a3fb6db716ce3c4d536db937?rik=y7PT7r3In3jK%2fQ&riu=http%3a%2f%2fcdn.onlinewebfonts.com%2fsvg%2fimg_194864.png&ehk=Li%2biIP8QE1FsUue%2bnBzqXe%2f3bMior2wWFmU%2f6phtSXg%3d&risl=&pid=ImgRaw&r=0">
+
+	<!--fonts-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Eczar:wght@500&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Eczar:wght@500&family=Proza+Libre&display=swap" rel="stylesheet">
+	<!--end of fonts-->
+	<!--style-sheet-->
+	<link rel="stylesheet" href="./style.css">
+	<!--end of style-sheet-->
+	<!--bootstrap-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+	 crossorigin="anonymous">
+	<!--end of bootstrap-->
+	<title>Animal First Aid</title>
+	<script src="./script.js">
+
+	</script>
+</head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-danger bg-opacity-75" style="font-family: 'eczar';" id="p">
+		<div class="container-fluid">
+
+			<a class="navbar-brand" href="index.html" style="font-family: 'eczar';" id="mainTitle">
+				<img id="mainTitle" src="https://th.bing.com/th/id/R.c474fae920f20f087674b7e940962485?rik=%2b9IEnpGf%2fFiYhg&riu=http%3a%2f%2fwww.clipartbest.com%2fcliparts%2f4cb%2fdaz%2f4cbdazocg.jpeg&ehk=wEttWSlEvipGcRNKlt%2fvyLazCch16tx%2bDPuuHefvdgU%3d&risl=&pid=ImgRaw&r=0" alt="" width="40" height="40" class="d-inline-block align-text-top">
+        ANIMAL AID</a>
+
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+        <li class="nav-item">
+          <a class="nav-link" id="navbarDropdown" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active text-danger text-center" id="navbarDropdown" aria-current="page" href="firstAid.html">FirstAid</a> 
+
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" id="navbarDropdown" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalcontact">Contact Us</a>
+          <div class="modal fade" id="exampleModalcontact" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title text-dark" id="exampleModalLabel">Contact Us</h2>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-dark">
+        <b>Our Contact Details :</b><br>
+        <b>Phone : </b>+91 99999 99999 <br>
+        <b>EMail : </b>animalaid@helpus.com <br>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle " href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Settings
+          </a>
+          <ul class="dropdown-menu bg-mute" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" style = "color:#E98074;" id="navbarDropdown" href="#">Setting1</a></li>
+            <li><a class="dropdown-item" style = "color:#E98074;"  id="navbarDropdown" href="#">Setting2</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" style = "color:#E98074;"  id="navbarDropdown" href="#">Setting3</a></li>
+          </ul>
+        </li>
+
+      </ul>
+
+      <form class="d-flex">
+        <input class="form-control me-2 text-danger" type="text" id="myFilter0" placeholder="Search for Clinic" onkeyup="myFunction(0)" aria-label="Search">
+        <button class="btn btn-outline-light" type="submit">Search</button>
+      </form>
+
+    </div>
+  </div>
+  </nav>
+    
+    <div class="container mb-5 mt-3">
+    <div class="row row-cols-1 row-cols-sm-1 row-cols-lg-3">
+  <div class="col mt-2">
+    <div class="card m-3 shadow" style="width: 18rem;">
+  <img src="https://www.wikihow.com/images/thumb/3/3c/Stop-a-Dog-from-Bleeding-Step-11.jpg/aid1881254-v4-728px-Stop-a-Dog-from-Bleeding-Step-11.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Animal Bleeding</h5>
+    <p class="card-text"></p>
+    <button type="button" class="btn btn-danger card-bottom" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+    View More
+    </button>
+  </div>
+    </div>
+  </div>
+  <div class="col mt-2">
+    <div class="card m-3 shadow" style="width: 18rem;">
+  <img src="https://www.wikihow.com/images/thumb/3/3c/Help-a-Pecked-Chicken-with-a-Wound-Step-7.jpg/aid6562622-v4-728px-Help-a-Pecked-Chicken-with-a-Wound-Step-7.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Animal Burn Wound</h5>
+    <p class="card-text"></p>
+    <button type="button" class="btn btn-danger card-bottom" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+    View More
+    </button>
+  </div>
+</div>
+  </div>
+  <div class="col mt-2">
+    <div class="card m-3 shadow" style="width: 18rem;">
+  <img src="https://www.wikihow.pet/images/thumb/9/94/Treat-Heat-Stroke-in-Dogs-Step-8-Version-3.jpg/aid1518120-v4-728px-Treat-Heat-Stroke-in-Dogs-Step-8-Version-3.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Heat Stroke</h5>
+    <p class="card-text"></p> <div class="card-bottom"><button type="button" class="btn btn-danger card-bottom" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+    View More
+    </button></div>
+    
+  </div>
+</div>
+  </div>
+  <div class="col mt-2">
+    <div class="card m-3 shadow" style="width: 18rem;">
+  <img src="https://www.wikihow.com/images/thumb/4/44/Treat-Watery-Eyes-in-Cats-Step-20-Version-2.jpg/aid8586702-v4-1200px-Treat-Watery-Eyes-in-Cats-Step-20-Version-2.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Infections</h5>
+    <p class="card-text"></p> <div class="card-bottom"><button type="button" class="btn btn-danger card-bottom" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+    View More
+    </button></div>
+    
+  </div>
+</div>
+  </div>
+  <div class="col mt-2">
+    <div class="card m-3 shadow" style="width: 18rem;">
+  <img src="https://www.wikihow.com/images/thumb/a/a8/Treat-Dog-Bite-Wounds-on-Dogs-Step-11.jpg/v4-460px-Treat-Dog-Bite-Wounds-on-Dogs-Step-11.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Bite Wounds</h5>
+    <p class="card-text"></p> <div class="card-bottom"><button type="button" class="btn btn-danger card-bottom" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+    View More
+    </button></div>
+    
+  </div>
+</div>
+  </div>
+  <div class="col mt-2">
+    <div class="card m-3 shadow" style="width: 18rem;">
+  <img src="https://www.wikihow.com/images/thumb/2/2d/Save-a-Choking-Dog-Step-1-Version-5.jpg/aid238651-v4-728px-Save-a-Choking-Dog-Step-1-Version-5.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Choking</h5>
+    <p class="card-text"></p> <div class="card-bottom"><button type="button" class="btn btn-danger card-bottom" data-bs-toggle="modal" data-bs-target="#exampleModal2">
+    View More
+    </button></div>
+    
+  </div>
+</div>
+  </div>
+  
+    </div></div>
+
+
+     <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title text-dark" id="exampleModalLabel">BLEEDING FIRST AID</h3>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-dark" style="font-family: sans-serif;">
+       
+       If your pet loses a lot of blood, they may go into shock, collapse, or even die. <br>
+      If your pet is bleeding heavily, find where the blood is coming from, apply pressure and call your vet. <br>
+      Call your vet immediately if you can’t control your pets bleeding or you think they might be bleeding internally. <br> <br>
+      <h4><b>Step one:
+      Find where the blood is coming from</b></h4>
+      <img src="https://www.wikihow.com/images/thumb/6/62/Give-First-Aid-to-an-Electrocuted-Animal-Step-2-Version-2.jpg/aid49051-v4-728px-Give-First-Aid-to-an-Electrocuted-Animal-Step-2-Version-2.jpg.webp" width="100%" height="100%" alt="">
+Check your pet for wounds, bleeding and bruises.
+Go slowly and carefully, even the friendliest pet can scratch or bite if they are painful. If necessary use a muzzle or towel to protect yourself, stop if you think you might get hurt.
+If your pet has collapsed, contact you vet immediately.
+<br> <br>
+<h4><b>Step two:
+Apply pressure</b></h4>
+ <img src="https://www.wikihow.com/images/thumb/9/92/Give-First-Aid-to-an-Electrocuted-Animal-Step-3-Version-2.jpg/aid49051-v4-728px-Give-First-Aid-to-an-Electrocuted-Animal-Step-3-Version-2.jpg.webp" width="100%" height="100%" alt="">
+Once you have found where the blood is coming from, apply pressure to the bleed by holding a clean cloth or bandage over it.
+Don’t remove the bandage to see if the bleeding has stopped -this is likely to disrupt any clots and cause the bleeding to start again. <br> <br>
+<h4><b>Step three:
+Contact NearBy vet</b></h4>
+<img src="https://www.wikihow.com/images/thumb/6/61/Give-First-Aid-to-an-Electrocuted-Animal-Step-7.jpg/aid49051-v4-728px-Give-First-Aid-to-an-Electrocuted-Animal-Step-7.jpg.webp" width="100%" height="100%" alt="">
+Phone your vet - they will tell you what to do next and book you an emergency appointment if needed.
+If you need to move your pet, do it carefully and avoid touching their injuries.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+    </div> 
+
+    <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title text-dark" id="exampleModalLabel">FIRST AID FOR BURNS</h3>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-dark" style="font-family: sans-serif;">
+       
+       Burns are extremely painful, can get easily infected and leave scars. <br>
+      If your pet has been burnt give first aid and call your vet. <br>
+      Always contact your vet no matter what size your pet’s burn is. <br>
+      <br>
+
+      <img src="https://www.wikihow.pet/images/thumb/4/42/Treat-Dog-Burns-Step-2.jpg/aid9897335-v4-728px-Treat-Dog-Burns-Step-2.jpg.webp" width="100%" height="100%" alt="">
+
+      <br>Take your pet away from whatever is burning them, if it’s chemical, wash it off with water.<br>
+      Check for any other injuries or symptoms (such as difficulty breathing).<br>
+      Do not apply creams or ointments to the burn.
+      <br> Cool any burnt skin with cool water for at least 10-20 minutes <br> Place cling film (very loosely and gently) over the burn if you think your pet may get their wound dirty on the way to your vets. <br>
+      <img src="https://www.wikihow.pet/images/thumb/0/01/Treat-Dog-Burns-Step-3.jpg/aid9897335-v4-728px-Treat-Dog-Burns-Step-3.jpg.webp" width="100%" height="100%" alt="">
+      Call your vet for an emergency appointment <br>Your vet will assess the severity of the burns and use specialist dressings to treat them. They may also need to give your pet other treatments such as antibiotics, drips and pain relief. <br>
+      <img src="https://www.wikihow.pet/images/thumb/7/7b/Treat-Dog-Burns-Step-7.jpg/aid9897335-v4-728px-Treat-Dog-Burns-Step-7.jpg.webp" width="100%" height="100%" alt="">
+      Always call your vet if your pet has been burnt, no matter what the size. <br>
+
+
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+    </div> 
+
+
+
+  <div class="px-4 py-5 text-center footer">
+    <h1 class="display-5 fw-bold">ANIMAL AID - TEAM TD-01</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">This is a Prototype model version of the Project build using Design Thinking Tools and Technique by Team TD - 01 under the mentoring of manikanta sir by md.aamir,suchith,shahid,p.vignesh. </p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+        <button type="button" onclick="topFunction()" id="myBtn" title="Go to top" class="btn btn-danger btn-lg px-4 gap-3">Go Back to Top</button>
+        <button type="button" class=" btn btn-outline-secondary btn-lg px-4"><a id="vnrbtn" href="http://www.vnrvjiet.ac.in"> Visit VNR VJIET</a></button>
+      </div>
+    </div>
+  </div>
+
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+  </body>
+</html>

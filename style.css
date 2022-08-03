@@ -1,0 +1,92 @@
+/*
+Rosewater
+#F8C0C8
+
+Ivory
+#EFE7D3
+
+Lilac
+#D3BBDD
+
+Pewter
+#ECE3F0
+
+#E98074
+*/
+.navbar{
+    background-color: #fcfbf6;
+}
+#main{
+    background-color: #fcfbf6;
+}
+.navbar a{
+    text-decoration: none;
+    font-family: 'Barlow', sans-serif;
+    font-size: xx-large;
+    font-weight: 300;
+    color:#E98074;
+}
+#intro{
+    background-color: #EAE7DC;
+    color:#E98074;
+}
+#link{
+    align-items:flex-end;
+}
+.active{
+  background-color: rgb(255, 241, 241);
+}
+#intro-text{
+    font-family: 'Barlow', sans-serif;
+}
+#intro-header{
+    font-family: 'Barlow', sans-serif;
+}
+#vnrbtn{
+  text-decoration: none;
+  color: grey;
+}
+#vnrbtn:hover{
+  text-decoration: none;
+  color: white;
+}
+#o{
+    text-decoration: none;
+    border:#D3BBDD solid 1px;
+    font-weight: 300;
+    font-size:larger; 
+    color:#D3BBDD;
+}
+#mainTitle{
+  font-size:30px;
+  color:rgb(255, 255, 255);
+}
+#p{
+   background-color: rgb(240, 195, 226);
+}
+#r{
+    background-color: #fcfbf6;
+    color:#E98074;
+    font-family: 'Barlow', sans-serif;
+}
+#navbarDropdown{
+  font-size: 25px;
+  font-family: 'eczar';
+  color:rgb(255, 221, 219);
+}
+#navbarDropdown:hover{
+  cursor: pointer;
+}
+#searchDiv,#myItems,.footer,html,body{
+  background-color: rgba(239, 231, 211, 0.61);
+}
+li{
+  font-size: 20px;
+  color:#E98074;
+  padding-right: 40px;
+  padding-left: 30px;
+}
+.bg-danger {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
+}
